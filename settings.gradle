@@ -2,4 +2,6 @@ rootProject.name = 'cloud-learn'
 include 'configlearn'
 include 'configlearn:server'
 findProject(':configlearn:server')?.name = 'server'
+include 'configlearn:client'
+findProject(':configlearn:client')?.name = 'client'
 
